@@ -8,7 +8,8 @@ function sumArray (arr){
     });
     return sum;
 }
-
+console.log(sumArray([1,2,3,4,5]));
+console.log(sumArray([19,-2,30,-45]));
 
 //task 3
 function checkEmail(emailString){
@@ -16,8 +17,8 @@ function checkEmail(emailString){
     var match=emailFormat.test(emailString);
     return match;
 }
-console.log(sumArray([1,2,3,4,5]));
-console.log(sumArray([19,-2,30,-45]));
+console.log(checkEmail("aminujd@gmail.com"));
+console.log(checkEmail("aminujd@gmail.com"));
 
 var library = [ 
    {
